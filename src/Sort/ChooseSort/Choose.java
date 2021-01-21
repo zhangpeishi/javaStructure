@@ -18,7 +18,7 @@ public class Choose {
     public void choose(){
 
         for (int i = 0; i < a.length; i++) {
-            int index = 0;
+            int index = i;
             int min = a[i];
             for (int j = i; j < a.length; j++) {
 
